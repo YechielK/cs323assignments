@@ -1,0 +1,232 @@
+10 NL 14
+13 CR 14
+32 space 161
+44 , 16
+46 . 8
+66 B 1
+70 F 1
+73 I 1
+78 N 1
+84 T 2
+87 W 2
+97 a 67
+98 b 7
+99 c 24
+100 d 35
+101 e 95
+102 f 11
+103 g 20
+104 h 35
+105 i 42
+108 l 26
+109 m 7
+110 n 54
+111 o 57
+112 p 8
+113 q 1
+114 r 50
+115 s 23
+116 t 74
+117 u 11
+118 v 13
+119 w 19
+121 y 5
+listHead-->(dummy,0,q)-->(q,1,N)-->(N,1,I)-->(I,1,F)-->(F,1,B)-->(B,1,W)-->(W,2,T)-->(T,2,y)-->(y,5,m)-->(m,7,b)-->(b,7,p)-->(p,8,.)-->(.,8,u)-->(u,11,f)-->(f,11,v)-->(v,13,CR)-->(CR,14,NL)-->(NL,14,,)-->(,,16,w)-->(w,19,g)-->(g,20,s)-->(s,23,c)-->(c,24,l)-->(l,26,h)-->(h,35,d)-->(d,35,i)-->(i,42,r)-->(r,50,n)-->(n,54,o)-->(o,57,a)-->(a,67,t)-->(t,74,e)-->(e,95,space)-->(space,161,null)-->null
+Pre-Order Traversal 
+(.qNWTBIFwgufiscerymvlnoCRNLbp,ahdtspace,905) Next: null Left: .qNWTBIFwgufiscerymvl Right: noCRNLbp,ahdtspace
+(.qNWTBIFwgufiscerymvl,363) Next: .qNWTBIFwgufiscerymvl Left: .qNWTBIFwgufisc Right: erymvl
+(.qNWTBIFwgufisc,167) Next: .qNWTBIFwgufisc Left: .qNWTBIFwguf Right: isc
+(.qNWTBIFwguf,78) Next: .qNWTBIFwguf Left: .qNWTBIFw Right: guf
+(.qNWTBIFw,36) Next: .qNWTBIFw Left: .qNWTBIF Right: w
+(.qNWTBIF,17) Next: .qNWTBIF Left: . Right: qNWTBIF
+(.,8) Next: . Next: null Right: null
+(qNWTBIF,9) Next: qNWTBIF Left: qNW Right: TBIF
+(qNW,4) Next: qNW Left: qN Right: W
+(qN,2) Next: qN Left: q Right: N
+(q,1) Next: q Next: null Right: null
+(N,1) Next: N Next: null Right: null
+(W,2) Next: W Next: null Right: null
+(TBIF,5) Next: TBIF Left: T Right: BIF
+(T,2) Next: T Next: null Right: null
+(BIF,3) Next: BIF Left: B Right: IF
+(B,1) Next: B Next: null Right: null
+(IF,2) Next: IF Left: I Right: F
+(I,1) Next: I Next: null Right: null
+(F,1) Next: F Next: null Right: null
+(w,19) Next: w Next: null Right: null
+(guf,42) Next: guf Left: g Right: uf
+(g,20) Next: g Next: null Right: null
+(uf,22) Next: uf Left: u Right: f
+(u,11) Next: u Next: null Right: null
+(f,11) Next: f Next: null Right: null
+(isc,89) Next: isc Left: i Right: sc
+(i,42) Next: i Next: null Right: null
+(sc,47) Next: sc Left: s Right: c
+(s,23) Next: s Next: null Right: null
+(c,24) Next: c Next: null Right: null
+(erymvl,196) Next: erymvl Left: e Right: rymvl
+(e,95) Next: e Next: null Right: null
+(rymvl,101) Next: rymvl Left: r Right: ymvl
+(r,50) Next: r Next: null Right: null
+(ymvl,51) Next: ymvl Left: ymv Right: l
+(ymv,25) Next: ymv Left: ym Right: v
+(ym,12) Next: ym Left: y Right: m
+(y,5) Next: y Next: null Right: null
+(m,7) Next: m Next: null Right: null
+(v,13) Next: v Next: null Right: null
+(l,26) Next: l Next: null Right: null
+(noCRNLbp,ahdtspace,542) Next: noCRNLbp,ahdtspace Left: noCRNLbp,a Right: hdtspace
+(noCRNLbp,a,237) Next: noCRNLbp,a Left: no Right: CRNLbp,a
+(no,111) Next: no Left: n Right: o
+(n,54) Next: n Next: null Right: null
+(o,57) Next: o Next: null Right: null
+(CRNLbp,a,126) Next: CRNLbp,a Left: CRNLbp, Right: a
+(CRNLbp,,59) Next: CRNLbp, Left: CRNL Right: bp,
+(CRNL,28) Next: CRNL Left: CR Right: NL
+(CR,14) Next: CR Next: null Right: null
+(NL,14) Next: NL Next: null Right: null
+(bp,,31) Next: bp, Left: bp Right: ,
+(bp,15) Next: bp Left: b Right: p
+(b,7) Next: b Next: null Right: null
+(p,8) Next: p Next: null Right: null
+(,,16) Next: , Next: null Right: null
+(a,67) Next: a Next: null Right: null
+(hdtspace,305) Next: hdtspace Left: hdt Right: space
+(hdt,144) Next: hdt Left: hd Right: t
+(hd,70) Next: hd Left: h Right: d
+(h,35) Next: h Next: null Right: null
+(d,35) Next: d Next: null Right: null
+(t,74) Next: t Next: null Right: null
+(space,161) Next: space Next: null Right: null
+In-Order Traversal 
+(.,8) Next: . Next: null Right: null
+(.qNWTBIF,17) Next: .qNWTBIF Left: . Right: qNWTBIF
+(q,1) Next: q Next: null Right: null
+(qN,2) Next: qN Left: q Right: N
+(N,1) Next: N Next: null Right: null
+(qNW,4) Next: qNW Left: qN Right: W
+(W,2) Next: W Next: null Right: null
+(qNWTBIF,9) Next: qNWTBIF Left: qNW Right: TBIF
+(T,2) Next: T Next: null Right: null
+(TBIF,5) Next: TBIF Left: T Right: BIF
+(B,1) Next: B Next: null Right: null
+(BIF,3) Next: BIF Left: B Right: IF
+(I,1) Next: I Next: null Right: null
+(IF,2) Next: IF Left: I Right: F
+(F,1) Next: F Next: null Right: null
+(.qNWTBIFw,36) Next: .qNWTBIFw Left: .qNWTBIF Right: w
+(w,19) Next: w Next: null Right: null
+(.qNWTBIFwguf,78) Next: .qNWTBIFwguf Left: .qNWTBIFw Right: guf
+(g,20) Next: g Next: null Right: null
+(guf,42) Next: guf Left: g Right: uf
+(u,11) Next: u Next: null Right: null
+(uf,22) Next: uf Left: u Right: f
+(f,11) Next: f Next: null Right: null
+(.qNWTBIFwgufisc,167) Next: .qNWTBIFwgufisc Left: .qNWTBIFwguf Right: isc
+(i,42) Next: i Next: null Right: null
+(isc,89) Next: isc Left: i Right: sc
+(s,23) Next: s Next: null Right: null
+(sc,47) Next: sc Left: s Right: c
+(c,24) Next: c Next: null Right: null
+(.qNWTBIFwgufiscerymvl,363) Next: .qNWTBIFwgufiscerymvl Left: .qNWTBIFwgufisc Right: erymvl
+(e,95) Next: e Next: null Right: null
+(erymvl,196) Next: erymvl Left: e Right: rymvl
+(r,50) Next: r Next: null Right: null
+(rymvl,101) Next: rymvl Left: r Right: ymvl
+(y,5) Next: y Next: null Right: null
+(ym,12) Next: ym Left: y Right: m
+(m,7) Next: m Next: null Right: null
+(ymv,25) Next: ymv Left: ym Right: v
+(v,13) Next: v Next: null Right: null
+(ymvl,51) Next: ymvl Left: ymv Right: l
+(l,26) Next: l Next: null Right: null
+(.qNWTBIFwgufiscerymvlnoCRNLbp,ahdtspace,905) Next: null Left: .qNWTBIFwgufiscerymvl Right: noCRNLbp,ahdtspace
+(n,54) Next: n Next: null Right: null
+(no,111) Next: no Left: n Right: o
+(o,57) Next: o Next: null Right: null
+(noCRNLbp,a,237) Next: noCRNLbp,a Left: no Right: CRNLbp,a
+(CR,14) Next: CR Next: null Right: null
+(CRNL,28) Next: CRNL Left: CR Right: NL
+(NL,14) Next: NL Next: null Right: null
+(CRNLbp,,59) Next: CRNLbp, Left: CRNL Right: bp,
+(b,7) Next: b Next: null Right: null
+(bp,15) Next: bp Left: b Right: p
+(p,8) Next: p Next: null Right: null
+(bp,,31) Next: bp, Left: bp Right: ,
+(,,16) Next: , Next: null Right: null
+(CRNLbp,a,126) Next: CRNLbp,a Left: CRNLbp, Right: a
+(a,67) Next: a Next: null Right: null
+(noCRNLbp,ahdtspace,542) Next: noCRNLbp,ahdtspace Left: noCRNLbp,a Right: hdtspace
+(h,35) Next: h Next: null Right: null
+(hd,70) Next: hd Left: h Right: d
+(d,35) Next: d Next: null Right: null
+(hdt,144) Next: hdt Left: hd Right: t
+(t,74) Next: t Next: null Right: null
+(hdtspace,305) Next: hdtspace Left: hdt Right: space
+(space,161) Next: space Next: null Right: null
+Post-Order Traversal 
+(.,8) Next: . Next: null Right: null
+(q,1) Next: q Next: null Right: null
+(N,1) Next: N Next: null Right: null
+(qN,2) Next: qN Left: q Right: N
+(W,2) Next: W Next: null Right: null
+(qNW,4) Next: qNW Left: qN Right: W
+(T,2) Next: T Next: null Right: null
+(B,1) Next: B Next: null Right: null
+(I,1) Next: I Next: null Right: null
+(F,1) Next: F Next: null Right: null
+(IF,2) Next: IF Left: I Right: F
+(BIF,3) Next: BIF Left: B Right: IF
+(TBIF,5) Next: TBIF Left: T Right: BIF
+(qNWTBIF,9) Next: qNWTBIF Left: qNW Right: TBIF
+(.qNWTBIF,17) Next: .qNWTBIF Left: . Right: qNWTBIF
+(w,19) Next: w Next: null Right: null
+(.qNWTBIFw,36) Next: .qNWTBIFw Left: .qNWTBIF Right: w
+(g,20) Next: g Next: null Right: null
+(u,11) Next: u Next: null Right: null
+(f,11) Next: f Next: null Right: null
+(uf,22) Next: uf Left: u Right: f
+(guf,42) Next: guf Left: g Right: uf
+(.qNWTBIFwguf,78) Next: .qNWTBIFwguf Left: .qNWTBIFw Right: guf
+(i,42) Next: i Next: null Right: null
+(s,23) Next: s Next: null Right: null
+(c,24) Next: c Next: null Right: null
+(sc,47) Next: sc Left: s Right: c
+(isc,89) Next: isc Left: i Right: sc
+(.qNWTBIFwgufisc,167) Next: .qNWTBIFwgufisc Left: .qNWTBIFwguf Right: isc
+(e,95) Next: e Next: null Right: null
+(r,50) Next: r Next: null Right: null
+(y,5) Next: y Next: null Right: null
+(m,7) Next: m Next: null Right: null
+(ym,12) Next: ym Left: y Right: m
+(v,13) Next: v Next: null Right: null
+(ymv,25) Next: ymv Left: ym Right: v
+(l,26) Next: l Next: null Right: null
+(ymvl,51) Next: ymvl Left: ymv Right: l
+(rymvl,101) Next: rymvl Left: r Right: ymvl
+(erymvl,196) Next: erymvl Left: e Right: rymvl
+(.qNWTBIFwgufiscerymvl,363) Next: .qNWTBIFwgufiscerymvl Left: .qNWTBIFwgufisc Right: erymvl
+(n,54) Next: n Next: null Right: null
+(o,57) Next: o Next: null Right: null
+(no,111) Next: no Left: n Right: o
+(CR,14) Next: CR Next: null Right: null
+(NL,14) Next: NL Next: null Right: null
+(CRNL,28) Next: CRNL Left: CR Right: NL
+(b,7) Next: b Next: null Right: null
+(p,8) Next: p Next: null Right: null
+(bp,15) Next: bp Left: b Right: p
+(,,16) Next: , Next: null Right: null
+(bp,,31) Next: bp, Left: bp Right: ,
+(CRNLbp,,59) Next: CRNLbp, Left: CRNL Right: bp,
+(a,67) Next: a Next: null Right: null
+(CRNLbp,a,126) Next: CRNLbp,a Left: CRNLbp, Right: a
+(noCRNLbp,a,237) Next: noCRNLbp,a Left: no Right: CRNLbp,a
+(h,35) Next: h Next: null Right: null
+(d,35) Next: d Next: null Right: null
+(hd,70) Next: hd Left: h Right: d
+(t,74) Next: t Next: null Right: null
+(hdt,144) Next: hdt Left: hd Right: t
+(space,161) Next: space Next: null Right: null
+(hdtspace,305) Next: hdtspace Left: hdt Right: space
+(noCRNLbp,ahdtspace,542) Next: noCRNLbp,ahdtspace Left: noCRNLbp,a Right: hdtspace
+(.qNWTBIFwgufiscerymvlnoCRNLbp,ahdtspace,905) Next: null Left: .qNWTBIFwgufiscerymvl Right: noCRNLbp,ahdtspace
